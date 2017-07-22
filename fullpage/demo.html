@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>demo</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				height: 100%;
+			}
+			#container,#sections,.section{
+				height: 100%;
+				font: 50px "Microsoft Yahei";
+			    color: #fff;
+			}
+			#sections{
+				position: relative;
+				top: 0;
+			}
+			.section
+			{
+				display: flex;
+			justify-content: center;
+			align-items: center;
+			}
+			.left{
+				float: left;
+				width: 25%;
+			}
+			#pages{
+				position: fixed;
+			}
+			#pages >li{
+				list-style: none;
+				 border:5px;
+				 border-style: solid; 
+				 border-color:white;
+                 border-radius:5px;
+                 cursor: pointer;
+			}
+			.verticals{
+                margin: 10px 0;
+			}
+			.horizontal{
+				left:50%;
+				margin-left: -100px;
+				bottom: 10%;
+			}
+			.horizontals{
+				float: left;
+				margin: 0 15px;
+			}
+			.vertical{
+				right: 10%;
+				top:50%;
+				margin-top: -45px;
+			}
+			#pages .active{
+				border-color: red;
+			}
+		</style>
+	</head>
+	<body style="overflow:scroll;overflow-y:hidden;overflow-x:hidden">
+		<div id="container">
+			<div id="sections">
+				<div class="section" style="background-color: rgb(27, 188, 155);"><h3>第一屏</h3></div>
+				<div class="section" style="background-color: rgb(75, 191, 195);"><h3>第二屏</h3></div>
+				<div class="section" style="background-color: rgb(123, 170, 190);"><h3>第三屏</h3></div>
+				<div class="section" style="background-color: rgb(255, 153, 0);"><h3>第四屏</h3></div>
+			</div>
+			<ul id="pages">
+				    <li></li>
+				    <li></li>
+				    <li></li>
+				    <li></li>
+			</ul>
+		</div>
+	</body>
+	<script src="../../move.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js.js  " type="text/javascript" charset="utf-8"></script>
+</html>

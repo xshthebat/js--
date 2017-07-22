@@ -1,0 +1,1 @@
+####obj:运动对象，json:运动物体运动{attr,iTarget},fn:回调函数，time:运动时间快慢

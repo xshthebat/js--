@@ -1,0 +1,1 @@
+###"effect": "fade"切换样式,"triggerType": "mouseover" 触发事件 ,"invoke": 1 默认张,"auto": 1500 自动播放速度 默认为false
